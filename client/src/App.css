@@ -1,0 +1,150 @@
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  
+  body {
+    padding: 0 !important;
+    margin: 0 !important;
+    box-sizing: border-box;
+    background-color: #fefefe !important;
+    color: #494949 !important;
+  }
+  
+  ul,
+  li {
+    list-style: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  
+  a {
+    display: block;
+    text-decoration: none !important;
+    &:hover {
+      text-decoration: none !important;
+    }
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    margin: 0px ;
+    padding: 0px;
+    color: black;
+  }
+
+  
+.p1{
+    font-family: 'Inter';
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    color: rgba(168, 174, 191, 1);
+}
+
+.p2{
+    font-family: 'Poppins';
+    font-size: 60px;
+    line-height: 72px;
+    font-weight: 600;
+    color: rgba(168, 174, 191, 1);
+}
+.p3{
+    font-family: 'Rubik';
+    font-size: 50px;
+    line-height: 110px;
+    font-weight: 700;
+    color: rgba(255, 184, 0, 1);
+    text-transform: uppercase;
+}
+
+.admin-body{
+  height: calc(100vh - 94px);
+ 
+}
+/* font-family: 'Manrope'; */
+
+
+/* font-family: 'Degular Demo'; */
+
+.red-border{
+  border: 1px solid #D11A2AFF;
+}
+.border-pink{
+  border: 1px solid #FD4960FF;
+}
+.grey-border{
+  border: 1px solid rgba(51, 55, 67, 1);
+}
+
+/* From Uiverse.io by Shoh2008 */ 
+.loader {
+  width: 24px;
+  height: 24px;
+  background: rgba(255, 255, 255, 0.7);
+  display: block;
+  margin: 0px auto;
+  position: relative;
+  box-sizing: border-box;
+  animation: rotationBack 1s ease-in-out infinite reverse;
+}
+
+.loader::before {
+  content: '';
+  box-sizing: border-box;
+  left: 0;
+  top: 0;
+  transform: rotate(45deg);
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  background: rgba(255, 255, 255, 0.7);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+
+.loader::after {
+  content: '';
+  box-sizing: border-box;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  background: black;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+
+@keyframes rotationBack {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+
+::-webkit-scrollbar {
+    width: 0.5em;
+    height: 0.5em;
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(51, 55, 67, 0.1);
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(205, 204, 204);
+    border-radius: 10px;
+}

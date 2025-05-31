@@ -1,0 +1,90 @@
+.heading {
+  color: rgba(255, 255, 255, 1);
+  font-family: "Poppins";
+  background: linear-gradient(34deg, #d358d9, #00129f);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  @media only screen and (max-width: 992px) {
+    /* font-weight: 500;
+        font-size: 40px;
+        line-height: 55px; */
+  }
+  @media only screen and (max-width: 767px) {
+    /* font-weight: 500;
+        font-size: 30px;
+        line-height: 50px; */
+  }
+  @media only screen and (max-width: 767px) {
+    /* line-height: 40px; */
+  }
+}
+.checkbox-button {
+  background: linear-gradient(34deg, #ff1b6b, #2472fc);
+
+  /* -webkit-background-clip: text; */
+  -webkit-text-fill-color: transparent;
+}
+.forget-password {
+  font-family: "Poppins";
+  background: linear-gradient(34deg, #ff1b6b, #2472fc);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.checkbox-button-login {
+  /* appearance: none; */
+  width: 24px;
+  height: 24px;
+  border-radius: 4px;
+  border: none;
+}
+
+.login-checkbox {
+  width: 24px;
+  height: 24px;
+  border-radius: 4px;
+  position: relative;
+  background-color: #f1f1f1;
+  appearance: none; /* Remove default checkbox */
+  -webkit-appearance: none; /* For WebKit browsers (e.g., Safari) */
+  cursor: pointer;
+}
+
+.login-checkbox.checked::after {
+  content: "";
+  position: absolute;
+  background-image: url("../../../../images/Tick-Login.svg");
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-size: cover;
+}
+
+.login-checkbox::after {
+  content: "";
+  display: none;
+}
+
+.login-checkbox.checked::after {
+  display: block;
+}
+.or-otr {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0px 12px;
+}
+.or-login {
+  font-family: "Poppins";
+  color: rgba(255, 255, 255, 1);
+  margin-bottom: 0px;
+}
+
+.or-otr span {
+  flex: 1;
+  height: 1px;
+  background: rgba(38, 38, 38, 1);
+}

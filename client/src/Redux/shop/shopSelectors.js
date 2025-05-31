@@ -1,0 +1,1 @@
+export const selectShopId = (state) => state?.shop?.shopId;

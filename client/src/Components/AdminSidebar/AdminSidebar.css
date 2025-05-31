@@ -1,0 +1,13 @@
+.AdminSidebar-a{
+    border: 1px solid var(--Dark-Version-D5, rgb(254, 254, 254))
+}
+/* AdminSidebar.css */
+.AdminSidebar-otr {
+    @apply fixed md:relative h-full bg-secondary z-40;
+    width: 256px;
+    transition: transform 0.3s ease;
+  }
+  
+  .md\\:hidden .AdminSidebar-otr {
+    transform: translateX(-100%);
+  }

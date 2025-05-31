@@ -1,0 +1,18 @@
+.Order-History-tabs .nav-tabs .nav-item .nav-link{
+    color: rgba(168, 174, 191, 1) !important;
+    font-family: 'Poppins';
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 500;
+    padding-bottom: 9px !important;
+}
+.Order-History-tabs .nav-tabs{
+    gap: 24px !important;
+}
+
+.Order-History-tabs .nav-tabs .nav-item .active {
+    color: white !important;
+    border-bottom: 1px solid rgba(253, 73, 96, 1) !important;
+    border-image: none !important;
+    
+}

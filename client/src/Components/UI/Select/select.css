@@ -1,0 +1,14 @@
+.w-full-select {
+  width: 100%;
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px solid #474c59;
+  background-color: transparent;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #ffffff;
+  /* .w-full-select:focus {
+    border-color: #ffffff;
+  } */
+  /* placeholder-color: #ffffff; */
+}

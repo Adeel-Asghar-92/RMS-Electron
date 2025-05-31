@@ -1,0 +1,17 @@
+.paginationIcons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #3E3E3E;
+    border-radius: 8px;
+    width: 38px;
+    height: 38px;
+}
+.paginationItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    width: 38px;
+    height: 38px;
+}

@@ -1,0 +1,39 @@
+.Printing3D-main {
+}
+.custom-container {
+}
+.Printing3D-heading1 {
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Poppins';
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 600;
+    margin-right: 6px;
+    margin-bottom: 0;
+}
+.Printing3D-heading2 {
+    background: linear-gradient(34deg, #d358d9, #00129f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Poppins';
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+.Printing3D-box-otr {
+}
+.Printing3D-box-inr {
+    padding: 32px 24px;
+    border-radius: 16px;
+    background-color: rgba(27, 27, 27, 1);
+}
+.Printing3D-box-heading {
+    margin-bottom: 0;
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Poppins';
+}
+.Printing3D-box-desc {
+    margin-bottom: 0;
+    color: rgba(168, 174, 191, 1);
+}

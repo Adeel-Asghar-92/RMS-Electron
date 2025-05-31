@@ -1,0 +1,14 @@
+.profile-modal .modal-dialog{
+    max-width: 500px !important;
+}
+
+.profile-modal .modal-content{
+    /* background-color: rgba(10, 10, 10, 1) !important; */
+    /* color: black !important; */
+    border: 1px solid rgba(71, 71, 71, 1);
+    border-radius: 10px;
+    
+}
+.profile-modal  .modal-footer{
+    border: none !important;
+}

@@ -1,0 +1,50 @@
+.Overview-main {
+}
+.Overview-heading1 {
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Poppins';
+    position: relative;
+}
+.Overview-heading1::after{
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 2px;
+    height: 100%;
+   background-color: #c018b2;
+}
+.Overview-heading2 {
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Poppins';
+}
+.Overview-heading3 {
+    color: #c018b2;
+    font-family: 'Poppins';
+}
+.Overview-row {
+}
+.Overview-box-otr {
+}
+.Overview-box-inr {
+    border: 1px solid rgba(71, 71, 71, 1)
+}
+
+
+.Overview-img-otr {
+}
+.Overview-img {
+}
+
+.object-cover {
+}
+
+.Overview-heading4{
+    font-family: 'Poppins';
+    color: white;
+}
+
+.Categories-txt{
+    font-family: 'Poppins';
+    color: white;
+}

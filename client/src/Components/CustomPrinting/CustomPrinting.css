@@ -1,0 +1,80 @@
+.CustomPrinting-main {
+    background-color: rgba(27, 27, 27, 1);
+    padding: 32px;
+    border-radius: 16px;
+    text-align: center;
+}
+.CustomPrinting-heading {
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Poppins';
+    margin-bottom: 0px;
+}
+.CustomPrinting-desc {
+    color: rgba(168, 174, 191, 1);
+    font-family: 'Poppins';
+    margin-bottom: 0px;
+}
+.download-otr {
+    border: dashed;
+    border-radius: 8px;
+    padding: 24px 0px;
+}
+.download-inr {
+   
+}
+.download-img-otr {
+   margin: 0 auto;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    background: var(--Dark-Version-D5, rgba(62, 62, 62, 1));
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.download-img {
+    width: 32px;
+    height: 32px;
+}
+.download-heading {
+    margin-bottom: 0px;
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Poppins';
+}
+.download-or {
+    margin-bottom: 0px;
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Poppins';
+   
+}
+.download-btn-otr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.download-btn-inr {
+    color: rgba(240, 46, 74, 1);
+    font-family: 'Poppins';
+    border-radius: 100px;
+    width: 140px;
+    height: 40px;
+    border: 1px solid  rgba(240, 46, 74, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.download-textarea{
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Poppins';
+    border: 1px solid rgba(71, 71, 71, 0.5)
+}
+.download-textarea::placeholder {
+    color: rgba(168, 174, 191, 1);
+}
+.download-textarea:focus{
+    outline: none;
+    box-shadow: none;
+}
